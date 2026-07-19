@@ -1,0 +1,6 @@
+Cluster,Income,Recency,NumDealsPurchases,NumWebPurchases,NumCatalogPurchases,NumStorePurchases,NumWebVisitsMonth,Complain,Response,Age,Customer_tenure_days,Customer_total_spend,Children,Education_Grade,Education_MasterGrade,Education_UnderGrade,Marital_Status_Living_alone,Marital_Status_Living_with
+Cluster0,Lowest,Highest,Moderate,Lowest,Lowest,Lowest,High,Highest,Lowest,Lowest,Lowest,Lowest,Moderate,Highest,Lowest,Highest,Low,Highest
+Cluster1,Highest,Moderate,Lowest,High,Highest,Highest,Lowest,Moderate,Moderate,Moderate,Moderate,Highest,Low,High,Low,Moderate,Low,Highest
+Cluster2,High,High,Low,Highest,High,High,Low,Low,Highest,High,High,High,Lowest,Moderate,High,Low,Highest,Low
+Cluster3,Moderate,Lowest,Highest,Moderate,Moderate,Moderate,Moderate,Lowest,High,Highest,Highest,Moderate,Highest,Lowest,Highest,Lowest,Moderate,Moderate
+Cluster4,Low,Low,High,Low,Low,Low,Highest,High,Low,Low,Low,Low,High,Low,Moderate,High,Highest,Low
