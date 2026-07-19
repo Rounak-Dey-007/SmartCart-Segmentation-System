@@ -33,8 +33,7 @@ Clustering (K-Means, Agglomerative) → Cluster Characterization → Cluster Sum
 
 
 ## Data Preprocessing — handled missing values in the dataset
-Feature Engineering — engineered new, business-relevant features from raw columns:
-
+## Feature Engineering — engineered new, business-relevant features from raw columns:
 Age (from Year_Birth)
 Customer_Tenure (days since enrollment, from Dt_Customer)
 Total_Spending (sum of all Mnt* product categories)
@@ -43,13 +42,18 @@ Simplified/classified Education into broader qualification tiers
 Classified Marital_Status into simplified living status categories
 Dropped redundant/unnecessary columns post feature engineering
 
+## Outlier Detection & Removal — identified and removed outliers to prevent skewed cluster formation
+## Correlation Analysis — examined feature correlations to extract early insights and check for multicollinearity
+## Encoding — applied One-Hot Encoding to categorical features
+## Scaling — standardized all numerical features using StandardScaler
+## Dimensionality Reduction (PCA) — reduced feature space to 2D and 3D for visualization and clustering efficiency
+## Clustering — applied and compared K-Means and Agglomerative (Hierarchical) Clustering
+## Cluster Characterization — analyzed how every feature behaves across clusters to understand each segment's identity
+## Cluster Summary — synthesized findings into clear, business-friendly customer segment profiles
 
+# 🚀 Future Improvements
 
-Outlier Detection & Removal — identified and removed outliers to prevent skewed cluster formation
-Correlation Analysis — examined feature correlations to extract early insights and check for multicollinearity
-Encoding — applied One-Hot Encoding to categorical features
-Scaling — standardized all numerical features using StandardScaler
-Dimensionality Reduction (PCA) — reduced feature space to 2D and 3D for visualization and clustering efficiency
-Clustering — applied and compared K-Means and Agglomerative (Hierarchical) Clustering
-Cluster Characterization — analyzed how every feature behaves across clusters to understand each segment's identity
-Cluster Summary — synthesized findings into clear, business-friendly customer segment profiles
+Deploy segmentation results as an interactive Streamlit dashboard
+Experiment with DBSCAN for outlier/anomaly detection
+Automate cluster-based campaign recommendation engine
+Add a supervised model to predict cluster membership for new customers
